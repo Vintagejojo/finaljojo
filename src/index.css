@@ -5,9 +5,28 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #a79595;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+li {
+  display: inline-block;
+}
+
+a, .nav_mods {
+  text-decoration: none;
+}
+
+.hero_background {
+    background: url(/src/partials/retroconsoleherobg.jpg);
+    width: 100vw;
+    height: calc(100vh - 4vh);
+    display: block;
+    opacity: 0.8;
+    margin-bottom: 55px;
+    background-size: cover;
 }
